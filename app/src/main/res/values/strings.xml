@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quick</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_search">Search</string>
+	<string name="welcome">Quick is fast and tiny app to help you find apps in your device. Try typing some shatterd letters and you will find how to use it.</string>
+	<string name="loading_IndexCache">Index…</string>
+	<string name="str_confirm_refresh_main">A refreshing on UI is needed. Do it now?</string>
+</resources>

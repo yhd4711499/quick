@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:quick="http://schemas.android.com/apk/res/com.ornithopter.quick">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="theme_dialog"
+        android:summary="@string/pref_description_theme_dialog"
+        android:title="@string/pref_title_theme_dialog" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="show_packageName"
+        android:summary="@string/pref_description_show_packagen_name"
+        android:title="@string/pref_title_show_packagen_name" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="search_packageName"
+        android:summary="@string/pref_description_search_packagen_name"
+        android:title="@string/pref_title_search_packagen_name" />
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="search_contact"
+        android:summary="@string/pref_description_search_contact"
+        android:title="@string/pref_title_search_contact" />
+    
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_search_delay_titles"
+        android:entryValues="@array/pref_search_delay_values"
+        android:key="search_delay"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_search_delay" />
+    
+    <ListPreference
+        android:key="search_threshold"
+	    android:title="@string/pref_title_search_threshold"
+	    android:entries="@array/pref_search_threshold_titles"
+        android:entryValues="@array/pref_search_threshold_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+	    android:defaultValue="1" />
+</PreferenceScreen>

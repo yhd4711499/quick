@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.ornithopter.quick"
+        minSdkVersion 14
+        targetSdkVersion 25
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path 'CMakeLists.txt'
+        }
+    }
+    splits {
+        abi {
+            enable true // enable this to build separated apk for each platforms
+            reset()
+            include 'x86', 'armeabi-v7a', 'arm64-v8a', 'mips'
+            universalApk false
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:25.1.0'
+    compile "org.androidannotations:androidannotations-api:4.2.0"
+    apt "org.androidannotations:androidannotations:4.2.0"
+}

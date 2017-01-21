@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">通用</string>
+    <string name="pref_title_show_packagen_name">显示包名称</string>
+    <string name="pref_title_search_packagen_name">启用包名称搜索</string>
+    <string name="pref_description_show_packagen_name">显示应用的包名称</string>
+    <string name="pref_description_search_packagen_name">打开后，可以同时搜索应用名称和他的包名称</string>
+    <string name="pref_title_search_delay">搜索延迟</string>
+    
+    <string name="pref_title_search_contact">搜索联系人</string>
+    <string name="pref_description_search_contact">启用联系人搜索</string>
+    
+    <string name="pref_title_theme_dialog">小窗口显示</string>
+    <string name="pref_description_theme_dialog">使用弹出窗口显示程序</string>
+    
+    <string name="pref_title_search_threshold">严格程度</string>
+    <string name="pref_description_search_threshold">更高的严格程度会过滤掉不是很准确的搜索结果</string>
+    
+    <string-array name="pref_search_delay_titles">
+        <item>立即</item>
+        <item>适中</item>
+        <item>慢速</item>
+    </string-array>
+
+    <string-array name="pref_search_delay_values">
+        <item>0</item>
+        <item>300</item>
+        <item>400</item>
+    </string-array>
+    
+    <string-array name="pref_search_threshold_titles">
+        <item>低</item>
+        <item>适中</item>
+        <item>高</item>
+    </string-array>
+
+    <string-array name="pref_search_threshold_values">
+        <item>1</item>
+        <item>2</item>
+        <item>14</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quick</string>
+    <string name="action_settings">设置</string>
+    <string name="menu_search">搜索</string>
+    <string name="welcome">Quick 是一个轻便的快速启动应用，您只需要输入几个简单的字母就能够启动对应的应用。\n比如，输入bycd或者by，就能找到名为\"必应词典\"的应用，轻触它即可打开应用，长按则会打开应用的详细信息。\n搜索结果排序：最先匹配以输入内容开头的应用，然后是以其为首字母的应用，最后是包含其中各个字母的应用。\n为了提高响应速度，搜索结果不会超过5个。</string>
+	<string name="loading_IndexCache">正在载入索引…</string>
+	<string name="str_confirm_refresh_main">需要更新主界面才能生效，是否现在就更新?</string>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <color name="accent">#ff33b5e5</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="card_green">#ff669900</color>
+    <color name="normal">#ff707070</color>
+    <color name="subTitle">#ffb8b8b8</color>
+    
+    <color name="turquoise">#ff1abc9c</color>
+    <color name="emerland">#ff2ecc71</color>
+    <color name="piter_river">#ff2ecc71</color>
+    <color name="belize_hole">#ff2980b9</color>
+    <color name="purple_red">#ffe6567a</color>
+    <color name="purple_red_dark">#ffcb476a</color>
+    <color name="amethyst">#ff9b59b6</color>
+    <color name="grey">#ff596272</color>
+</resources>
